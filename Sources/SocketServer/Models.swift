@@ -7,9 +7,12 @@
 
 import Foundation
 
+
+
+
+
 struct Result: Decodable {
     let total: String
-    let matrix: [[Int]]
 }
 
 struct Board: Encodable, Identifiable {
@@ -17,3 +20,4 @@ struct Board: Encodable, Identifiable {
     let id = UUID()
     let matrix: [[Int]]
 }
+
